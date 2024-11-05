@@ -1,0 +1,69 @@
+.selectComp {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.selectComp img {
+    width: 220px;
+    height: 128px;
+    flex-shrink: 0;
+}
+
+.itemNoSelected {
+    width: 220px;
+    height: 128px;
+    cursor: pointer;
+}
+
+.itemNoSelected svg {
+    display: none;
+}
+
+.itemSelected {
+    position: relative;
+    width: 220px;
+    height: 128px;
+    cursor: pointer;
+}
+
+.itemNoDrop {
+    cursor: no-drop;
+    position: relative;
+}
+
+.itemMask {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Microsoft YaHei;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.itemSelected svg {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.itemSelected::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: rgba(9, 38, 113, 0.68);
+}

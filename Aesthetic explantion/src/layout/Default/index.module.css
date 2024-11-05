@@ -1,0 +1,43 @@
+.layoutPage {
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.layoutHeader {
+    width: 100%;
+    padding-top: 20px;
+    flex-shrink: 0;
+}
+
+.layoutContent {
+    width: 100%;
+    background-color: #fff;
+    flex: 1;
+}
+
+.layoutFooter {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #7F7F7F;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #fff;
+    z-index: 100;
+}

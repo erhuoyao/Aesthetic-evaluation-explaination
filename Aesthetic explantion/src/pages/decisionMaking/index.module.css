@@ -1,0 +1,36 @@
+.descisionMakingPage {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descisionMakingPage main {
+    flex: 1;
+}
+
+.descisionMakingPage header {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.descisionMakingPage footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: baseline;
+    box-sizing: border-box;
+    padding-top: 100px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

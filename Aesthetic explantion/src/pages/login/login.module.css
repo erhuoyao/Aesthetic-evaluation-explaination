@@ -1,0 +1,103 @@
+.loginPage {
+    width: 100vw;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 700px;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.title {
+    color: #000;
+    font-family: Microsoft YaHei;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.desc {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Microsoft YaHei;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aiLogo {
+    background: #E7E5CB;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.aiLogo p {
+    color: #000;
+    font-family: Microsoft YaHei;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+}
+
+.inputBox span {
+    white-space: nowrap;
+    color: #7F7F7F;
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    color: #7F7F7F;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.loginUser {
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.loginUser h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
